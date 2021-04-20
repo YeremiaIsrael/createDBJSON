@@ -7,9 +7,12 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ea":"~/Library/Android/sdk/emulator/emulator -avd Phone1"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "json-server": "^0.16.3",
     "react": "17.0.1",
     "react-native": "0.64.0"
   },
